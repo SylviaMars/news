@@ -20,9 +20,8 @@ function cargar() {
 
 function cargar2(){
 	if (cargado < 3) {
-        $.getJSON("https://rawgit.com/kenzo98/news/master/data/noticias" + indice + ".json", function (jsonObject) { addrows(jsonObject); }); 
+        $.getJSON("https://rawgit.com/kenzo98/news/master/data/noticia" + cargado + ".json", function (jsonObject) { addrows(jsonObject); }); 
 		cargado++;
-		indice = "2";
     } else {
         $('#mas').text('No hay más noticias');
     }
