@@ -5,7 +5,7 @@ var n = 1;
 
 $(window).scroll(function () {
     if ($(window).scrollTop() + $(window).height() + 10 >= $(document).height()) {
-		cargar2();
+		cargar();
     }
 });
 
@@ -13,14 +13,10 @@ $(window).scroll(function () {
 	// alert("")
 // })
 
-
-function cargar() {
-    cargar2();
-};
-
-function cargar2(){
+function cargar(){
 	if (cargado < 3) {
-        $.getJSON("https://rawgit.com/kenzo98/news/master/data/noticia" + cargado + ".json", function (jsonObject) { addrows(jsonObject); }); 
+        $.getJSON("https://rawgit.com/kenzo98/news/master/data/noticia" + cargado + ".json", function (jsonObject) {
+		addrows(jsonObject); }); 
 		cargado++;
     } else {
         $('#mas').text('No hay más noticias');
