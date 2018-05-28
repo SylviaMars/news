@@ -1,0 +1,360 @@
+body {
+	background: #ecebe8 url(../img/texture.png) repeat;
+	height: 100%;
+	}
+
+button {
+  background-color: transparent;
+}
+/*-----------------------------------------------------Barra menu*/
+
+.navbar, dropdown-menu{
+	overflow: hidden;
+	position: fixed;
+	top:0;
+  background-color: #242426;
+  color: #eae39b;
+  background-size: cover;
+  width: 100%;
+	text-align: left;
+	border-right-width: 0px;
+	border-left-width: 0px; 
+	padding-left: 3%;
+	border-radius: 0px;
+	left:0px;
+  z-index: 99;
+}
+
+/*
+#myNavbar{
+  z-index: 98;
+  color: #eae39b;
+}
+.nav {
+  background-color: transparent;
+  color: #eae39b;
+}
+*/
+#navpages{
+	font-family: 'Nunito', sans-serif;
+	font-size: small;
+	border-color: transparent;
+	padding-left: 5%;
+  display: inline;
+  color: #eae39b;
+}
+/*
+.form {
+	padding-left: 10%;
+  display: inline;
+  font-family: 'Nunito', sans-serif;
+  font-size: small;
+}
+.sticky { 
+  position: fixed;
+  top: 0px;
+  width: 100%
+}
+*/
+
+#logo{
+  height: 50px;
+  padding-right: 20%;
+}
+
+/*-------------------------------------------------Barra menu*/
+
+
+div {
+  font-family: 'Nunito', sans-serif;
+  font-size: small;
+}
+/*Jumbotron*/
+
+.jumbotron{
+	background-image: url("../img/fallout-lone.jpg");
+	z-index: 1;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-color: transparent;
+	background-position: center center;
+	padding-right: 0px;
+	margin-top:2%;
+	box-shadow: 0px 5px #000000;
+	border-bottom: 0,5px;
+	border-color: transparent;
+	animation: glitch 2s infinite;
+
+}
+
+/*.jumbotron:after {
+
+	content: ""; /*Debe tener un content*/
+	background-image: url("../img/ruido.png");
+	z-index: 2;
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	left: 0px;
+	top: 0px;
+	animation: noise 0.5s infinite;
+}
+
+/*Jumbotron*/
+
+@keyframes grain {
+  0%, 100% { transform:translate(0, 0) }
+  10% { transform:translate(1%, 2%) }
+  50% { transform:translate(25%, 2%) }
+}
+
+#w{
+	margin-top: 4%;
+	/*animation: glitch 4s infinite;*/
+}
+
+#wn {
+  background-size: cover;
+  display: none;
+}
+
+#interferencia {
+	background-image:  url("../img/interferencia.png");
+	background-size: 100% 100%;
+	position: absolute;
+	display: block;
+
+}
+
+#noise1 {
+	background: transparent url("../img/interferencia.png");
+	animation: noise 1s infinite;
+	background-size: 100% 100%;
+
+}
+
+/*Cabecera*/
+
+h1{
+
+  font-size: 2vw;
+}
+
+#cabecera{
+  border-color: black;
+  border-top: 5px;
+  border-bottom: 5px;
+  border-left: 0px;
+  border-right: 0px;
+  border-style: solid;
+  margin: 20px;
+}
+
+#title { 
+
+  text-align: left;
+  font-size: 2vw;
+}
+
+#pipboy{
+  text-align: right;
+}
+
+#pip {
+  height: 50px;
+  margin:1%;
+}
+
+/*Publicidad*/
+
+#publi {
+	display: none;
+	background-image: url(../img/anuncio1.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  text-align: center;
+}
+
+/*@media screen and (min-width: 768px) {	*/
+
+	#a {padding-right: 336px;}
+
+	#publi{
+	position: absolute;
+	right:0px;
+	height: 280px;
+	width: 336px;
+	display: block;
+	}
+
+.row{ margin-right: 0; }
+
+
+
+/*Notícias*/
+
+.thumbnail {
+  box-shadow: 11px 9px 20px 0px;
+  text-align: left;
+  color: #242426;
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 1vw;
+  background-color: transparent;
+  border: 0px;
+  padding: 3%;
+  /*border-color: #242426;
+  border-radius: 0px;*/
+  
+}
+
+.thumbnail:hover {
+  background-color: #242426;
+  color: #ffffff;
+  box-shadow: 11px 9px 20px 0px;
+}
+
+#foto1 {
+  display: block;
+}
+
+#foto2 {
+  display: block;
+}
+
+#foto3 {
+  display: block;
+}
+/*Cargar página*/
+
+#cargar{
+  background-color: transparent;
+  text-align: center;
+}
+
+.button {
+  text-align: center;
+}
+
+/*footer*/
+
+.footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #242426;
+  color: white;
+  text-align: center;
+  margin-top: 1%;
+}
+
+#logos{margin-top: 1%;}
+
+#licencia {font-size: 0.5vw; color: white; text-align: left; margin-top: : 1%;}
+
+#gear{width: auto; height: 40px; margin:1%;}
+
+#pegi { width: auto; height: 40px; margin:1%;}
+
+#bethesda{ width: auto; height: 20px; margin:4%;s}
+
+svg {
+  margin: 4px;
+}
+.form-group {
+  text-align: right;
+}
+#media {
+  text-align: right;
+}
+
+
+@media (min-width: 480px) {
+  
+}
+
+@keyframes glitch { 
+
+  0% { text-shadow: 3px 0 0 grey, -5px 3 0 #0c33f5; filter: blur(0); left:1px;}
+  2% { text-shadow: 3px 0 0 grey, -5px 3 0 #0c33f5; filter: blur(0);} 
+  4% { text-shadow: 3px 0 0 red, -5px 3 0 #0c33f5; filter: blur(1px);}
+  6% { text-shadow: -5px 0 0 red, 3px 3 0 #0c33f5; filter: blur(1px);}
+  8% { text-shadow: -5px 0 0 red, 3px 3 0 #0c33f5; filter: blur(1px);left:1px;}
+  9% { text-shadow: -5px 0 0 red, 3px 0 0 #0c33f5; filter: blur(1px);left:0,5px;}
+  11% { text-shadow: 1px 0 0 red, -1px 0 0 lime; filter: blur(1px);left:0px;}
+  13% { text-shadow: 1px 0 0 red, -1px 0 0 lime; filter: blur(1px);left:0,5px;}
+  15% { text-shadow: 1px 0 0 red, -1px 0 0 lime; filter: blur(0);left:1px;}
+  16% { text-shadow: -3px 0 0 red, 3px 0 0 lime; filter: blur(0);}
+  17% { text-shadow: -3px 0 0 red, 3px 0 0 lime; filter: blur(0);}
+  18% { text-shadow: -3px 0 0 red, 3px 0 0 lime; filter: blur(0);}
+  19% { text-shadow: -3px 0 0 red, 3px 0 0 lime; filter: blur(0);}
+  20% { text-shadow: -3px 0 0 red, 3px 0 0 lime; filter: blur(0);}
+  21% { text-shadow: 0.8px 0 0 #0c33f5, -0.8px 0 0 lime; filter: blur(0);}
+  22% { text-shadow: 0.8px 0 0 #0c33f5, -0.8px 0 0 lime; filter: blur(0);}
+  23% { text-shadow: 0.8px 0 0 #0c33f5, -0.8px 0 0 lime; filter: blur(0);}
+  24% { text-shadow: 0.8px 0 0 #0c33f5, -0.8px 0 0 lime; filter: blur(0);}
+  25% { text-shadow: 0.8px 0 0 #0c33f5, -0.8px 0 0 lime; filter: blur(0);}
+  26% { text-shadow: 0.8px 0 0 #0c33f5, -0.8px 0 0 lime; filter: blur(1px);}
+  27% { text-shadow: 0.8px 0 0 #0c33f5, -0.8px 0 0 lime; filter: blur(1px);}
+  28% { text-shadow: 0.8px 0 0 #0c33f5, -0.8px 0 0 lime; filter: blur(0);}
+  29% { text-shadow: 0.8px 0 0 #0c33f5, -0.8px 0 0 lime; filter: blur(0);}
+  30% { text-shadow: 0.8px 0 0 #0c33f5, -0.8px 0 0 lime; filter: blur(0);}
+  31% { text-shadow: -3px 0 0 #0c33f5, 3px 0 0 lime; filter: blur(0);}
+  32% { text-shadow: -3px 0 0 #0c33f5, 3px 0 0 lime; filter: blur(0);}
+  33% { text-shadow: -3px 0 0 #0c33f5, 3px 0 0 lime; filter: blur(0);}
+  34% { text-shadow: -3px 0 0 #0c33f5, 3px 0 0 lime; filter: blur(0);}
+  35% { text-shadow: -3px 0 0 #0c33f5, 3px 0 0 lime; filter: blur(1px);}
+  36% { text-shadow: -3px 0 0 #0c33f5, 3px 0 0 lime; filter: blur(1px);}
+  37% { text-shadow: -3px 0 0 #0c33f5, 3px 0 0 lime; filter: blur(1px);}
+  38% { text-shadow: -3px 0 0 #0c33f5, 3px 0 0 lime; filter: blur(0);}
+  39% { text-shadow: -3px 0 0 #0c33f5, 3px 0 0 lime; filter: blur(0);}
+  40% { text-shadow: -3px 0 0 #0c33f5, 3px 0 0 lime; filter: blur(0);}
+  41% { text-shadow: 45px 0 0 #0c33f5, -45px 0 0 lime; filter: blur(0);}
+  42% { text-shadow: 0 0 0 #0c33f5, 0 0 0 lime; filter: blur(0);}
+  43% { text-shadow: 1px 0 0 red, -1px 0 0 lime; filter: blur(0);}
+  44% { text-shadow: 1px 0 0 red, -1px 0 0 lime; filter: blur(0);}
+  45% { text-shadow: 1px 0 0 red, -1px 0 0 lime; filter: blur(0);}
+  46% { text-shadow: 1px 0 0 red, -1px 0 0 lime; filter: blur(1px);}
+  47% { text-shadow: -3px 0 0 red, 3px 0 0 lime; filter: blur(1px);}
+  48% { text-shadow: -3px 0 0 red, 3px 0 0 lime; filter: blur(0);}
+  49% { text-shadow: -3px 0 0 red, 3px 0 0 lime; filter: blur(0);}
+  50% { text-shadow: -3px 0 0 red, 3px 0 0 lime; filter: blur(0);}
+  51% { text-shadow: 3px 0 0 red, -3px 0 0 #0c33f5; filter: blur(0);}
+  52% { text-shadow: 3px 0 0 red, -3px 0 0 #0c33f5; filter: blur(0);}
+  53% { text-shadow: 3px 0 0 red, -3px 0 0 #0c33f5; filter: blur(0);}
+  54% { text-shadow: 3px 0 0 red, -3px 0 0 #0c33f5; filter: blur(0);}
+  55% { text-shadow: 3px 0 0 red, -3px 0 0 #0c33f5; filter: blur(0.5px);}
+  56% { text-shadow: -3px 0 0 red, 3px 0 0 #0c33f5; filter: blur(0.5px);}
+  57% { text-shadow: -3px 0 0 red, 3px 0 0 #0c33f5; filter: blur(0.5px);}
+  58% { text-shadow: -3px 0 0 red, 3px 0 0 #0c33f5; filter: blur(0);}
+  59% { text-shadow: -3px 0 0 red, 3px 0 0 #0c33f5; filter: blur(0);}
+  60% { text-shadow: -3px 0 0 red, 3px 0 0 #0c33f5; filter: blur(0);}
+  61% { text-shadow: 30px 0 0 red, -30px 0 0 lime; filter: blur(0);}
+  62% { text-shadow: 0 0 0 red, 0 0 0 lime; filter: blur(0);}
+  63% { text-shadow: 1px 0 0 red, -1px 0 0 #0c33f5; filter: blur(0);}
+  64% { text-shadow: 1px 0 0 red, -1px 0 0 #0c33f5; filter: blur(0);}
+  65% { text-shadow: 1px 0 0 red, -1px 0 0 #0c33f5; filter: blur(0);}
+  66% { text-shadow: 1px 0 0 red, -1px 0 0 #0c33f5; filter: blur(0.5px);}
+  67% { text-shadow: -3px 0 0 red, 3px 0 0 #0c33f5; filter: blur(0.5px);}
+  68% { text-shadow: -3px 0 0 red, 3px 0 0 #0c33f5; filter: blur(0);}
+  69% { text-shadow: -3px 0 0 red, 3px 0 0 #0c33f5; filter: blur(0);}
+  70% { text-shadow: -3px 0 0 red, 3px 0 0 #0c33f5; filter: blur(0);}
+  71% { text-shadow: 50px 0 0 red, -50px 0 0 #0c33f5; filter: blur(0);}
+  72% { text-shadow: 0 0 0 red, 0 0 0 #0c33f5; filter: blur(0);}
+  73% { text-shadow: 3px 0 0 red, -3px 0 0 #0c33f5; filter: blur(0);}
+  74% { text-shadow: 3px 0 0 red, -3px 0 0 #0c33f5; filter: blur(0);}
+  75% { text-shadow: 3px 0 0 red, -3px 0 0 #0c33f5; filter: blur(0);}
+  76% { text-shadow: 3px 0 0 red, -3px 0 0 #0c33f5; filter: blur(0);}
+  77% { text-shadow: -3px 0 0 red, 3px 0 0 #0c33f5; filter: blur(0);}
+  78% { text-shadow: -3px 0 0 red, 3px 0 0 #0c33f5; filter: blur(0);}
+  79% { text-shadow: -3px 0 0 red, 3px 0 0 #0c33f5; filter: blur(0);}
+  80% { text-shadow: -3px 0 0 red, 3px 0 0 #0c33f5; filter: blur(0);}
+  
+  @keyframes noise {
+  	0% { opacity: 100; top: 100%; }
+  	50% { opacity: 0; top: 100%; }
+  	99% { opacity: 100; top: -1000%; }
+  	100% { opacity: 0; top: 100%; }
+  }
+font-family: 'Six Caps', sans-serif;
+font-family: 'Teko', sans-serif;
+font-family: 'Yellowtail', cursive;

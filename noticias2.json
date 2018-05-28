@@ -1,0 +1,25 @@
+[
+
+	{"img":"../img/miami.jpg",
+	"title": "FALLOUT: MIAMI, EL MOD QUE NOS TRANSPORTA A FLORIDA",
+	"sub": "Un mod traslada el Yermo de Fallout a la costa de Florida, más en concreto, a Miami. El proyecto sigue avanzando y, desde su equipo de creadores, ha querido compartir tanto información como...",
+	"date":"01/04/18"
+	},
+
+	{"img":"../img/cc.jpg",
+	"title": "CREADORES DESTACADOS – ELIANORA",
+	"sub": "Elianora fue de las primeras en llegar al Club de creación, lista para ofrecer a los jugadores una estética renovada para sus asentamientos de Fallout 4.",
+	"date":"01/04/18"
+	},
+
+	{"img":"../img/flag.png",
+	"title": "FALLOUT: NEW CALIFORNIA PRESENTA SU BETA 9 AÑOS DESPÚES DE ANUNCIARSE",
+	"sub": "Fallout, el videojuego de rol de ciencia ficción de Bethesda, es uno de los títulos con más mods en su haber. Si bien algunas historias no han terminado bien,lo cierto es que encontramos adaptaciones bastante ambiciosas.",
+	"date":"25/03/18"	
+	},
+
+	{"img":"../img/vegas.jpg",
+	"title": "SE BUSCAN ACTORES DE DOBLAJE PARA EL MOD FALLOUT 4: NEW VEGAS",
+	"sub": "El equipo de desarrollo Team F4NV publicó en su página de Facebook que está buscando actores de doblaje que quieran formar parte del proyecto, que sigue teniendo luz verde por parte de Bethesda.",
+	"date":"25/03/18"
+	}]
