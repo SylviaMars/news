@@ -11,7 +11,7 @@ $(window).scroll(function () {
 
 function cargar(){
 	if (cargado < 3) {
-        $.getJSON("https://rawgit.com/kenzo98/news/master/data/noticia" + cargado + ".json", function (jsonObject) {
+        $.getJSON("https://rawgit.com/kenzo98/news/master/data/noticias" + cargado + ".json", function (jsonObject) {
 		addrows(jsonObject); }); 
 		cargado++;
     } else {
