@@ -9,10 +9,6 @@ $(window).scroll(function () {
     }
 });
 
-// $("#gear").click(function(){
-	// alert("")
-// })
-
 function cargar(){
 	if (cargado < 3) {
         $.getJSON("https://rawgit.com/kenzo98/news/master/data/noticia" + cargado + ".json", function (jsonObject) {
