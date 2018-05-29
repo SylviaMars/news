@@ -33,14 +33,6 @@ function addrows(json) {
 	})
 };
 
-
-$(document).ready(function() {
-    $("#n1").click(function(){
-    	window.location.href=("Noticia.html"); });
-    
-});
-
-
 setInterval(function(){
 	$('#anuncio').attr('src','img/anuncio'+currentBanner+'.png');
 	currentBanner++;
