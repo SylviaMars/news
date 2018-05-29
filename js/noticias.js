@@ -35,9 +35,8 @@ function addrows(json) {
 
 
 $(document).ready(function() {
-    $("#n"+n).click(function(){
-    	window.location.href=("Noticia" + n + ".html"); });
-		n++;
+    $("#n1).click(function(){
+    	window.location.href=("Noticia.html"); });
     
 });
 
