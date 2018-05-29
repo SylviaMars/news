@@ -30,7 +30,7 @@ function addrows(json) {
 				'<p>'+item.sub+'</p>'+
 				'<button>Leer más</button>'+'</div>'+'</div>'
 			);
-	})
+	});
 };
 
 
