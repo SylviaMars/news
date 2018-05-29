@@ -27,8 +27,7 @@ function addrows(json) {
 				'<img src="'+item.img +'" alt="img">'+
 				'<h3>'+item.title+'</h3>'+
 				'<p>'+item.date+'</p>'+
-				'<p>'+item.sub+'</p>'+
-				'<button>Leer más</button>'+'</div>'+'</div>'
+				'<p>'+item.sub+'</p>'+'</div>'+'</div>'
 			);
 	})
 };
