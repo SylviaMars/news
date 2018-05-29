@@ -84,7 +84,9 @@ h1{font-size: 2vw;}
   display: block;
 }
 
-#anuncio {padding-bottom: 30px;}
+#anuncio {margin-bottom: 30px;
+  height: 250px;
+  width: 300px;}
 
 #publi {
   background-image: url(../img/anuncio5.jpg);
