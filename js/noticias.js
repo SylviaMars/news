@@ -30,12 +30,12 @@ function addrows(json) {
 				'<p>'+item.sub+'</p>'+
 				'<button>Leer más</button>'+'</div>'+'</div>'
 			);
-	});
+	})
 };
 
 
 $(document).ready(function() {
-    $("#n1).click(function(){
+    $("#n1").click(function(){
     	window.location.href=("Noticia.html"); });
     
 });
