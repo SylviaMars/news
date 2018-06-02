@@ -21,14 +21,7 @@ function cargar(){
 
 function addrows(json) {
     $.each(json, function (i, item) {
-        $("#grupo").append('<div class="row">'+
-			   	'<div class="col-sm-6">'+
-				'<div class="thumbnail">'+
-				'<img src="'+item.img +'" alt="img">'+
-				'<h3>'+item.title+'</h3>'+
-				'<p>'+item.date+'</p>'+
-				'<p>'+item.sub+'</p>'+'</div>'+'</div>'+
-			   '<div class="col-sm-6">'+
+        $("#grupo").append('<div class="col-sm-6">'+
 				'<div class="thumbnail">'+
 				'<img src="'+item.img +'" alt="img">'+
 				'<h3>'+item.title+'</h3>'+
