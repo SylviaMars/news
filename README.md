@@ -62,7 +62,7 @@ Esta columna lateral desaparece al cambiar a tamaño responsive.
 # footer
 Contiene los elementos de la página oficial (política, iconos). Así como iconos de enlaces a las diferentes plataformas del juego y redes sociales (página de Facebook y Youtube).
 
-[embed]https://github.com/kenzo98/news/blob/master/NuevoDocumento%205_1.pdf[/embed]
+[embed]https://rawgit.com/kenzo98/news/master/NuevoDocumento%205_1.pdf[/embed]
 
 ```Estructura de la página de la noticia```
 
