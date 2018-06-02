@@ -31,7 +31,7 @@ function cargar(origen){
 			addrows(jsonObject); }); 
 			cargado++;
 		} else {
-			$('#gear').text('No hay más noticias');
+			$('#cargar').attr('title','No hay más noticias');
 		}
 	}
 }
