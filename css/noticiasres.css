@@ -101,20 +101,12 @@ h1{font-size: 4vw;}
 /*--------------------------------------------------Notícias*/
 
 .thumbnail {
-  box-shadow: 11px 9px 20px 0px;
   text-align: left;
   color: #242426;
   font-family: 'Fjalla One', sans-serif;
   font-size: 14px;
   background-color: transparent;
-  border: 0px;
   padding: 3%; 
-}
-
-.thumbnail:hover {
-  background-color: #242426;
-  color: #ffffff;
-  box-shadow: 11px 9px 20px 0px;
 }
 
 #foto1 {
