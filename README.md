@@ -22,6 +22,17 @@ Enlace a la página: https://rawgit.com/kenzo98/news/master/Portada.html
 
 - Botón para desactivar el scroll (debajo del iframe de twitter).
 
+```Elementos```
+El proyecto consta de:
+
+- Documentación
+- Una página principal con dos css.
+- Dos páginas enlacadas de noticias con sus respectivos css.
+- Dos javascript (página ppal. y noticias).
+- Una carpeta que contiene las imágenes).
+- 4 json que contienen dos noticias cada uno.
+- Xml con el rss.
+
 ```Inspiración```
 
 Mi idea era hacer una página de noticias inspirada en la página oficial de Fallout (actualmente renovada por el anuncio de un nuevo juego):
@@ -65,6 +76,14 @@ Contiene los elementos de la página oficial (política, iconos). Así como icon
 Esquema original: 
 
 https://rawgit.com/kenzo98/news/master/NuevoDocumento%205_1.pdf
+
+Como se puede apreciar hay algunos cambios respecto al orden de los elementos: 
+
+- El jumbotrón aparece ahora después de la barra de navegación, me parece más correcto ya que se queda fijada arriba.
+
+- Las noticias aparecen de dos en dos de manera más legible.
+
+- Hubiera añadido una animación a la imagen de cargar noticias (rotatorio) pero no ha sido posible por falta de tiempo.
 
 ```Estructura de la página de la noticia```
 
