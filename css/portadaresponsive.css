@@ -46,6 +46,7 @@ button {
 
 #logo{
   	height: 50px;
+	padding-right: 40px;
 }
 
 a {color: grey;}
