@@ -70,7 +70,7 @@ Aquí se encuentra el banner del anuncio. Para rellenar con contenido he añadid
 También he añadido el botón de desactivar el scroll en esta columna para que sea más visible (al lado del scroll) pero que a la vez no moleste visualmente.
 Esta columna lateral desaparece al cambiar a tamaño responsive.
 
-# footer
+# Footer
 Contiene los elementos de la página oficial (política, iconos). Así como iconos de enlaces a las diferentes plataformas del juego y redes sociales (página de Facebook y Youtube).
 
 Esquema original: 
@@ -89,6 +89,7 @@ Como se puede apreciar hay algunos cambios respecto al orden de los elementos:
 
 La estructura es exáctamente la misma que la de la página principal pero cambiando el container por un sólo thumbnail.
 Este no tiene hover ni sombras como la página principal, creo que así quedaba más limpio.
+Contiene una imagen (la misma que contiene la página principal) y un video responsive.
 
 ```Funciones de la página```
 
