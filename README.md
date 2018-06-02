@@ -62,7 +62,9 @@ Esta columna lateral desaparece al cambiar a tamaño responsive.
 # footer
 Contiene los elementos de la página oficial (política, iconos). Así como iconos de enlaces a las diferentes plataformas del juego y redes sociales (página de Facebook y Youtube).
 
-[embed]https://rawgit.com/kenzo98/news/master/NuevoDocumento%205_1.pdf[/embed]
+Esquema original: 
+
+https://rawgit.com/kenzo98/news/master/NuevoDocumento%205_1.pdf
 
 ```Estructura de la página de la noticia```
 
@@ -77,4 +79,5 @@ Este no tiene hover ni sombras como la página principal, creo que así quedaba 
 
 - He cambiado el botón que tenía pensado originalmente para cargar las noticias por una imagen, esta tiene un título "Cargar más noticias" que se activa al pasar el ratón. Al llegar al final de la página cambia a "No hay más noticias".
 
+- Todos los archivos html, css, json y xml han sido validados. 
 
