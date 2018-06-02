@@ -1,6 +1,8 @@
 # Página de noticias
 
-Enlace a la página: https://rawgit.com/kenzo98/news/master/Portada.html
+He movido el proyecto a este repositorio final mediante un fork (aunque los enlaces de la página siguen siendo los del anterior). 
+
+Enlace a la página: https://rawgit.com/SylviaMars/news/master/Portada.html
 
 
 ```Últimas modificaciones y agregaciones```:
