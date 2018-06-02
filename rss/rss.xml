@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+
+<channel>
+<grupo>
+    <noticia>
+        <img>img/76.png</img>
+        <titulo>FALLOUT 76 – BETHESDA PRESENTA EL VÍDEO OFICIAL DEL AVANCE</titulo>
+        <descripcion>¡Por fin! Bethesda Game Studios, galardonado creador de The Elder Scrolls V:
+        Skyrim y Fallout 4, presenta Fallout 76. Bethesda nos ofrecerá más detalles durante la presentación en el E3 de este año. </descripcion>
+        <date>31/05/18</date>
+        <enlace>../Noticia1.html</enlace>
+    </noticia>
+    <noticia>
+        <img>img/falloutshelter.png</img>
+        <titulo>FALLOUT SHELTER SUPERA LOS 100 MILLONES DE JUGADORES</titulo>
+        <descripcion>El juego más grande de Fallout sigue creciendo. Bethesda Softworks ha anunciado que Fallout Shelter,
+        el galardonado juego de Bethesda Game Studios que mete a los jugadores en la piel de un supervisor ...</descripcion>
+        <date>01/05/18</date>
+        <enlace>../Noticia2.html</enlace>
+    </noticia>
+    <noticia>
+        <img>img/fallout4.jpg</img>
+        <titulo>FALLOUT 4 Y SKYRIM SPECIAL EDITION – MODS DESTACADOS DE MAYO</titulo>
+        <descripcion>Este mes tenemos una selección de Mods de Skyrim, en gran parte creados en torno a temas de la naturaleza y la arquería,
+        que incluyen opciones para ampliar los arcos y varias casas de los jugadores.</img>
+        <date>01/05/18</date>
+        <enlace>../Noticia2.html</enlace>
+    </noticia>
+    <noticia>
+        <img>img/falloutshelter.png</img>
+        <titulo>FALLOUT SHELTER SUPERA LOS 100 MILLONES DE JUGADORES</titulo>
+        <descripcion>El juego más grande de Fallout sigue creciendo. Bethesda Softworks ha anunciado que Fallout Shelter,
+        el galardonado juego de Bethesda Game Studios que mete a los jugadores en la piel de un supervisor ...</descripcion>
+        <date>01/05/18</date>
+        <enlace>../Noticia2.html</enlace>
+    </noticia>
+      
+</grupo>
+</channel>
+</rss>
