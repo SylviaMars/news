@@ -10,7 +10,7 @@ $(window).scroll(function () {
 });
 
 function cargar(){
-	if (cargado <= 3) {
+	if (cargado <= 4) {
         $.getJSON("https://rawgit.com/kenzo98/news/master/data/noticias" + cargado + ".json", function (jsonObject) {
 		addrows(jsonObject); }); 
 		cargado++;
@@ -21,8 +21,8 @@ function cargar(){
 
 function addrows(json) {
     $.each(json, function (i, item) {
-        $("#grupo").append(
-        	'<div class="col-sm-6">'+
+        $("#grupo").append('<div class="row">'+
+			   	'<div class="col-sm-6">'+
 				'<div class="thumbnail">'+
 				'<img src="'+item.img +'" alt="img">'+
 				'<h3>'+item.title+'</h3>'+
