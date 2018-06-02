@@ -26,17 +26,38 @@ Mi idea era hacer una página de noticias inspirada en la página oficial de Fal
 https://fallout.bethesda.net/
 
 La mayoría de los elementos: tipo de fuente, background, colores, cabecera, etc. estaban inspirados en esa versión anterior.
-Las imagenes se han retocado mediante Photoshop, sobretodo para cambiar tamaños. A otras les he añadido elementos. (publicidad, iconos, jumbotron).
+Las imagenes se han retocado mediante Photoshop, sobretodo para cambiar tamaños. A otras les he añadido elementos (publicidad, iconos, jumbotron,...).
 
-```Estructura de la página```: 
+```Estructura de la página principal```: 
 
 *Barra de navegación fija* 
+
 Con un logotipo, páginas de enlaces internas y externas y un formulario de acceso.
-*Jumbotrón*
-Inspirado en los de la página oficial y con animación.
-*Cacbecera*
+
+-Jumbotrón
+
+Inspirado en los de la página oficial y con efecto ruido.
+
+*Cabecera*
+
 A modo de separación y como título de las noticias. Este también está inspirado en la página oficial.
+
 *Publicidad*
-A la derecha como indica el enunciado y con una función para cambiar las imágenes.
+
+A la derecha como indica el enunciado y con una función para cambiar las imágenes. Al pasar a tamaño responsive la publicidad aparece abajo fija.
+*Noticias*
+
+Cada noticia se encuentra en un thumbnail con las especificaciones del enunciado. Tienen un hover para destacarlas al pasar el ratón.
+Las imagenes poseen el mismo tamaño a fin de que tengan el mismo aspecto.
+*Columna lateral*
+
+Aquí se encuentra el banner del anuncio. Para rellenar con contenido he añadido un iframe con las noticias de twitter de la página oficial, encajando el formato para que no desentone.
+También he añadido el botón de desactivar el scroll en esta columna para que sea más visible (al lado del scroll) pero que a la vez no moleste visualmente.
+*footer*
+Contiene los elementos de la página oficial (política, iconos). Así como iconos de enlaces a las diferentes plataformas del juego y redes sociales (página de Facebook y Youtube).
 
 ```Funciones de la página```
+
+-Todos los iconos están enlazados a las páginas de referencia. 
+
+-
