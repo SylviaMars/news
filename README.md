@@ -1,6 +1,5 @@
 # Página de noticias
 
-He movido el proyecto a este repositorio final mediante un fork (aunque los enlaces de la página siguen siendo los del anterior). 
 
 Enlace a la página: https://rawgit.com/SylviaMars/news/master/Portada.html
 
