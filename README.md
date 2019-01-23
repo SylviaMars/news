@@ -1,7 +1,8 @@
 # Página de noticias
 
 
-Enlace a la página: https://rawgit.com/SylviaMars/news/master/Portada.html
+Proyecto de una página de notícias que se inyectan mediante json.
+
 
 
 ```Últimas modificaciones y agregaciones```:
